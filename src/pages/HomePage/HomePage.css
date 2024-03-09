@@ -170,7 +170,7 @@
   }
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .hero_sec .hero_content {
     padding-block: 80px;
   }
@@ -178,4 +178,4 @@
   .home_card_sec_main .home_card {
     padding-block: 80px;
   }
-}
+} */

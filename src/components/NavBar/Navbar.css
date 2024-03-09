@@ -170,7 +170,7 @@
   }
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .nav_togglebar {
     display: block;
   }
@@ -182,9 +182,9 @@
   .nav_login_btn {
     display: none;
   }
-}
+} */
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .nav_togglebar {
     display: none;
   }
