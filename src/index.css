@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: auto;
+}
+
+:root {
+  --bg: #f4f0ed;
+  --txt: #767b67;
+  --txt2: #4d4f4a;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}

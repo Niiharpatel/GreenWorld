@@ -1,0 +1,15 @@
+.plant_sec .plant_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 35px;
+  padding-block: 80px;
+}
+
+.plant_sec .plant_bg {
+  box-shadow: 8px 7px 12px 1px #504545;
+  /* margin: 20px; */
+  background-color: white;
+  margin-block: 50px;
+}

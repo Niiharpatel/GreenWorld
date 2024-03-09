@@ -1,0 +1,76 @@
+.giftpage_sec {
+  background-color: #dfd8d8;
+}
+
+.giftpage_sec .giftpage_bg {
+  background-image: url("https://images.pexels.com/photos/1454794/pexels-photo-1454794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  padding: 80px 85px;
+  width: 580px;
+  height: auto;
+}
+
+.giftpage_sec .giftpage_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 100px;
+}
+
+.giftpage_sec .giftpage_flex form > h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.giftpage_sec .giftpage_flex form > * label {
+  text-align: left;
+  flex: 0.3;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.giftpage_sec .giftpage_flex form > * input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  flex: 1;
+  background-color: transparent;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.giftpage_sec .giftpage_flex form > * input:focus {
+  outline: none;
+}
+
+.giftpage_sec .giftpage_flex form .form_flex {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.giftpage_sec .giftpage_flex form .form_btn_flex {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 7px;
+}
+
+.giftpage_sec .giftpage_flex form .form_btn {
+  padding: 10px 22px;
+  font-size: 15px;
+  border: 2px solid #212529;
+  cursor: pointer;
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.giftpage_sec .giftpage_flex form .form_btn:hover {
+  border: 2px solid #212529;
+  color: #212529;
+  background-color: transparent;
+  transition: 0.3s all ease;
+}

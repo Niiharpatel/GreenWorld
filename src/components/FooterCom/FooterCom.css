@@ -1,0 +1,93 @@
+.footer_main .footer_bg .line_1 li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer_main .footer_bg .line_1 .footer_anchor {
+  text-decoration: none;
+  color: #f4f0ed;
+  font-size: 17px;
+}
+
+.footer_main .footer_bg {
+  /* background-color: #141a0f; */
+  background-color: #212529;
+}
+
+.footer_main .footer_bg .line_1 {
+  font-size: 0.875rem;
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+.footer_main .footer_bg .box_2 .line_2 {
+  color: #f4f0ed;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Unna", serif;
+  line-height: 1.2em;
+  padding-top: 72px;
+}
+
+.footer_main .footer_bg .box_2 .line_3 {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.footer_main .footer_bg .box_2 .line_3 .footer_input {
+  padding: 0.7em;
+  height: auto;
+  outline: none;
+  padding-right: 180px;
+}
+
+.footer_main .footer_bg .box_2 .line_3 .footer_btn {
+  padding: 10px 20px;
+  background-color: green;
+  border: none;
+  color: #f9f9f9;
+  border: 1px solid transparent;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.footer_main .footer_bg .box_2 .line_3 button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  transition: 0.2s ease-in all;
+}
+
+.footer_main .footer_bg .box_2 .line_4 {
+  text-align: center;
+  letter-spacing: 34px;
+  padding-top: 55px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+}
+
+.footer_main .footer_bg .box_2 .line_4 a svg:hover {
+  stroke: white;
+}
+
+.footer_main .footer_bg .box_2 .footer_bottom {
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer_main .box_2 .footer_bottom .para {
+  text-align: center;
+  color: #f4f0ed;
+  margin-bottom: 0px;
+  padding-block: 40px;
+}

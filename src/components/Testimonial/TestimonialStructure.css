@@ -1,0 +1,56 @@
+.testi_main {
+  width: 400px;
+  height: fit-content;
+}
+
+.testi_quote {
+  text-align: center;
+  font-size: 30px;
+  color: #d6cfcf;
+}
+
+.comments {
+  text-align: center;
+  padding-block: 15px;
+  padding-inline: 35px;
+}
+
+.comments p {
+  color: var(--e-global-color-astglobalcolor2);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.user_pic_middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_box .user_pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user_box .user_pic img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.user_name {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.user_name p {
+  color: rgb(83, 79, 79);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-weight: bold;
+}

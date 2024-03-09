@@ -1,0 +1,48 @@
+/* .login_sec {
+} */
+
+.login_bg {
+  background-image: url("https://images.pexels.com/photos/1276518/pexels-photo-1276518.jpeg?auto=compress&cs=tinysrgb&w=2000&h=750&dpr=1");
+  padding-block: 80px;
+  background-position: center;
+  background-size: cover;
+}
+
+.login_sec .login_heading {
+  text-align: center;
+  color: white;
+  padding-block: 20px;
+}
+
+.login_sec .login_form > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login_sec .login_form form .pass_inp,
+.email_inp {
+  padding: 10px 200px 10px 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.login_sec .login_form form .form_sub_btn {
+  padding: 10px 25px;
+  font-size: 17px;
+  border: 1px solid var(--bg);
+  border-radius: 7px;
+  cursor: pointer;
+  color: var(--bg);
+  background-color: transparent;
+  margin-block: 15px;
+}
+
+.login_sec .login_form form .form_sub_btn:hover {
+  background-color: var(--bg);
+  color: black;
+  transition: 0.3s all ease;
+}

@@ -1,0 +1,181 @@
+/* ========================================== HERO SEC =========================================== */
+
+.hero_sec .hero_bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/09/hero-section-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: fit-content;
+}
+
+.hero_sec .hero_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 163px;
+  color: var(--bg);
+  text-align: center;
+  /* height: 80vh; */
+  /* gap: 63px; */
+}
+
+.hero_content h5 {
+  font-size: large;
+}
+
+.hero_content h1 {
+  font-size: 4.5rem;
+  max-width: 790px;
+  padding-block: 30px;
+}
+
+.hero_content .hero_sec_btn {
+  padding: 10px 22px;
+  font-size: 17px;
+  border: 1px solid var(--bg);
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.hero_content .hero_sec_btn:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid var(--bg);
+  transition: 0.3s all ease-in-out;
+}
+
+/* ======================================= CARD SEC ==================================== */
+
+.home_card_sec_main .home_card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  padding-block: 100px;
+  flex-wrap: wrap;
+}
+
+/* ======================================= OUR_STORY SEC ==================================== */
+
+.main_plant_blog {
+  background-color: white;
+}
+.main_blog_flex {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.right_plant_blog {
+  background: url("https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/09/hero-section-bg.jpg");
+  /* height: 100%; */
+  min-height: fit-content;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-block: 80px;
+  text-align: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  background-color: transparent;
+  z-index: 1;
+  color: var(--bg);
+  /* padding-block: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right_plant_blog:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(6, 6, 4, 0.68);
+  z-index: -1;
+  font-family: "Unna", serif;
+}
+/* .right_plant_blog h1 {
+  margin-bottom: 20px;
+} */
+
+.right_plant_blog h3 {
+  font-size: 25px;
+}
+.right_plant_blog p {
+  font-size: 21px;
+  width: 36%;
+}
+
+.right_plant_blog .our_story_btn {
+  padding: 10px 22px;
+  font-size: 17px;
+  border: 1px solid var(--bg);
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.right_plant_blog .our_story_btn:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid var(--bg);
+  transition: 0.3s all ease-in-out;
+}
+
+/* ======================================= TESTIMONIAL SEC ==================================== */
+.testimonial_sec {
+  background-color: #f9f9f9;
+  padding-block: 80px;
+}
+
+.testi_sec_row {
+  padding-block: 60px;
+}
+
+.testimonial_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0px 0px 0px;
+}
+
+.testimonial_heading {
+  text-align: center;
+}
+
+.testimonial_heading h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Unna", serif;
+}
+
+/* ================================= MEDIA QUERY ================================ */
+
+@media (max-width: 576px) {
+  .hero_sec .hero_content {
+    padding-block: 50px;
+  }
+
+  .home_card_sec_main .home_card {
+    padding-block: 60px;
+  }
+}
+
+@media (min-width: 576px) {
+  .hero_sec .hero_content {
+    padding-block: 80px;
+  }
+
+  .home_card_sec_main .home_card {
+    padding-block: 80px;
+  }
+}
